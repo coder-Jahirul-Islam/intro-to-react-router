@@ -1,7 +1,11 @@
 nav a{
     text-decoration: noen;
     margin-right: 14px;
-    color:red;
-    
-
+    color:rgb(211, 144, 144)(238, 198, 198);
+    padding: 15px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }

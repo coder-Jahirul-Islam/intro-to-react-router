@@ -9,8 +9,6 @@ const Post = ({ post }) => {
 
     const handleNavigation =() => {
         navigate(`/post/${id}`);
-
-
     } 
     return (
         <div className='post'>
@@ -18,7 +16,6 @@ const Post = ({ post }) => {
             <h5>Title: {title}</h5>
             <Link to={`/post/${id}`}>Show Details</Link>
             <Link to={`/post/${id}`}><button >Show Post Details</button></Link>
-        
         <button onClick={handleNavigation}>With button handler</button>
         </div>
     );
